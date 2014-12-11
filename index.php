@@ -2,7 +2,7 @@
 //convenient line breaks
 function br() { echo "<br />"; }
 
-//building parts of the deck
+//building parts of the deck(s)
 $suits = array(" of Spades"," of Hearts"," of Clubs"," of Diamonds");
 $faces = array(
   'A'=>'1',
