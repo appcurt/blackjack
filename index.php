@@ -74,6 +74,8 @@ $playerhand->cards[] = drawCard($deck);
 print_r($playerhand); br();
 //Try to add options for HIT and STAY here
 
+br();
+
 //Dealer's Hand
 echo "<b>Getting the dealer's hand...</b>"; br();
 $dealerhand = new hand();
