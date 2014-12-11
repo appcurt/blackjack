@@ -2,7 +2,7 @@
 //convenient line breaks
 function br() { echo "<br />"; }
 
-//building parts of the deck
+//building parts of the deck(s)
 $suits = array(" of Spades"," of Hearts"," of Clubs"," of Diamonds");
 $faces = array(
   'A'=>'1',
@@ -73,6 +73,8 @@ $playerhand->cards[] = drawCard($deck);
 $playerhand->cards[] = drawCard($deck);
 print_r($playerhand); br();
 //Try to add options for HIT and STAY here
+
+br();
 
 //Dealer's Hand
 echo "<b>Getting the dealer's hand...</b>"; br();
